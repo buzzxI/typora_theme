@@ -1,0 +1,72 @@
+:root{
+	--max-width:85%;
+	--font-family: Consolas;
+	--font-family-mono: Consolas;
+    --color-hover:var(--mono-300);
+    --color-status:var(--mono-600);
+    --background-color:var(--mono-100);
+    --border-color:var(--mono-300);
+    --btn-toggle-color:var(--mono-500);
+    --input-placeholder-color:var(--mono-500);
+    --kbd-background:var(--mono-700);
+    --md-brackets:var(--mono-500);
+    --sidebar-background:var(--mono-200);
+    --sidebar-border-color:var(--mono-300);
+    --sidebar-color:var(--mono-800);
+    --text-color:var(--mono-800);
+    --blockquote-background:var(--mono-200);
+    --code-inline-background:var(--mono-300);
+    --checkbox-background:var(--mono-200);
+    --checkbox-border-color:var(--mono-400);
+    --heading-color:var(--mono-900);
+    --hr-color:var(--mono-400);
+    --strong-color:var(--mono-900);
+    --table-edit-active-background:var(--mono-600);
+    --table-edit-active-color:var(--mono-100);
+    --table-edit-background:var(--mono-300);
+    --table-edit-color:var(--mono-700);
+    --table-edit-hover-background:var(--mono-400);
+    --thead-border-color:var(--mono-400);
+    --tr-alt-background:var(--mono-200);
+    --tr-border-color:var(--mono-300);
+    --code-activeline-background:var(--mono-300);
+    --code-background:var(--mono-200);
+    --code-bracket-color:var(--mono-500);
+    --code-comment-color:var(--mono-500);
+    --code-gutter-border-color:var(--mono-300);
+    --code-linenumber-color:var(--mono-500);
+    --code-text-color:var(--mono-800);
+    --code-padding-tb:0.5em;
+    --code-padding-lr:0.5em;
+    --blockquote-padding:1rem 1.2rem 1rem 1.2rem;
+}
+blockquote{
+    margin:1rem 0;
+}
+footer.ty-footer{
+    border-color:var(--mono-300);
+}
+.megamenu-opened #w-traffic-lights{
+    background:var(--mono-100);
+}
+#megamenu-back-btn{
+    color:var(--mono-400);
+}
+.long-btn,
+.megamenu-menu-panel .btn,
+#recent-file-panel-action-btn{
+    background:var(--mono-200);
+    border:1px solid var(--mono-400);
+}
+.theme-preview-div{
+    border:var(--border-width) solid var(--mono-300);
+}
+@media screen{
+	:root{
+		--color-status:var(--mono-400);
+	    --input-background:var(--mono-100);
+	    --menu-background:var(--mono-200);
+	    --kbd-background:var(--mono-200);
+	    --marked-color:var(--mono-300);
+	}
+}
